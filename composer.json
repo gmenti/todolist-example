@@ -7,6 +7,9 @@
             "email": "mentifg@gmail.com"
         }
     ],
+    "scripts": {
+        "dev": "php -S localhost:8000 ./public/index.php"
+    },
     "require": {
         "vlucas/phpdotenv": "^2.5",
         "gmenti/restful-admin": "^1.0@dev"
