@@ -10,6 +10,11 @@
     "scripts": {
         "dev": "php -S localhost:8000 ./public/index.php"
     },
+    "autoload": {
+        "psr-4": {
+            "Todolist\\": "src/"
+        }
+    },
     "require": {
         "vlucas/phpdotenv": "^2.5",
         "gmenti/restful-admin": "^1.0@dev"
