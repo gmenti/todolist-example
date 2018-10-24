@@ -1,0 +1,14 @@
+{
+    "name": "gmenti/todolist-example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Giuseppe Menti",
+            "email": "mentifg@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "gmenti/restful-admin": "^1.0@dev"
+    }
+}
