@@ -14,7 +14,17 @@ cp .env.example .env
 composer install
 ```
 
+Configuration
+-------------
+Open the .env file and change with your configuration.
+```env
+MONGO_URI=mongodb://localhost:3306
+MONGO_DB=todolist
+```
 
-Start development server
+Commands
 ------------------------
-`composer run-script dev`
+Start application on [http://localhost:8000]()
+```shell
+composer run-script dev
+```
